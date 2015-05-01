@@ -75,9 +75,9 @@ This is the action the button will perform once it has been tapped.
 [button setActionBlock:^(GUIRoundProgressButton *weakButton) {
   // Perform your tasks here
 
-  // At the end, call finish using the weak reference to prevent memory leaks
+  // At the end, call finish using the weak reference to prevent retain cycles
   [weakButton finish];
 }];
 ```
 
-**NOTE:** do not forget to call the `finish` method at the end of your tasks. Use the weak reference to the button to prevent memory leaks.
+**NOTE:** do not forget to call the `finish` method at the end of your tasks. Use the weak reference to the button to prevent retain cycles.
