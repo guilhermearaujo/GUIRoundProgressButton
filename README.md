@@ -26,7 +26,7 @@ To use it, you should create a view controller that extends `GUIRoundProgressBut
 * Add it as a subview: `[self.view addSubview:button];`
 
 ### Customizing
-These are the methods you can use to change the look and feel of your button. The *"touch"* methods relate to the color while the button is being pressed by the user.
+These are the methods you can use to change the look and feel of your button. The *"touch"* methods relate to the color while the button is being pressed by the user and while the action is in progress.
 
 #### Content Padding
 ```obj-c
