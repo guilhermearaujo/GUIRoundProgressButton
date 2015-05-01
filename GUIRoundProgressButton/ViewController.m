@@ -22,7 +22,7 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
   
-  // Configuring the button added via Interface Buildar
+  // Configuring the button added via Interface Builder
   
   [buttonIB setBorderWidth:5.0f];
   [buttonIB setBorderColor:[UIColor colorWithWhite:1.0f alpha:0.7f]];
@@ -31,7 +31,7 @@
   [buttonIB setTouchForegroundColor:[UIColor clearColor]];
   
   [buttonIB setImage:[UIImage imageNamed:@"octocat"]];
-  
+  [buttonIB setContentPadding:30];
   [buttonIB setActionBlock:^(GUIRoundProgressButton *weakButton) {
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.5f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
       [buttonIB finish];

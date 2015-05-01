@@ -10,6 +10,7 @@
 
 @interface GUIRoundProgressButton : UIControl
 
+@property (assign, nonatomic) CGFloat contentPadding;
 @property (assign, nonatomic) CGFloat borderWidth;
 @property (strong, nonatomic) UIColor *borderColor;
 @property (strong, nonatomic) UIColor *touchBorderColor;

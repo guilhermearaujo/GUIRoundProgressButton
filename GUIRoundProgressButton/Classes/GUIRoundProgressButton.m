@@ -45,6 +45,8 @@
 - (void)setupWithRadius:(CGFloat)radius {
   [self setClipsToBounds:YES];
   [self.layer setCornerRadius:radius];
+
+  [self setContentPadding:5.0f];
   
   [self addTarget:self action:@selector(touchDown) forControlEvents:UIControlEventTouchDown];
   [self addTarget:self action:@selector(touchUpInside) forControlEvents:UIControlEventTouchUpInside];
@@ -52,6 +54,18 @@
 }
 
 #pragma mark - Visual Customization
+
+- (void)setContentPadding:(CGFloat)contentPadding {
+  _contentPadding = contentPadding;
+  
+  if (self.textLabel) {
+    [self.textLabel setFrame:[self frameWithoutBorder]];
+  }
+  
+  if (self.imageView) {
+    [self.imageView setFrame:[self frameWithoutBorder]];
+  }
+}
 
 - (void)setBorderWidth:(CGFloat)borderWidth {
   _borderWidth = borderWidth;
@@ -189,12 +203,12 @@
 }
 
 - (CGRect)frameWithoutBorder {
-  // Removes the border width plus 20% for padding
+  // Removes the border width plus padding
   CGRect frame = self.bounds;
-  frame.origin.x += self.borderWidth * 1.2f;
-  frame.origin.y += self.borderWidth * 1.2f;
-  frame.size.width -= 2.4f * self.borderWidth;
-  frame.size.height -= 2.4f * self.borderWidth;
+  frame.origin.x += self.borderWidth + self.contentPadding;
+  frame.origin.y += self.borderWidth + self.contentPadding;
+  frame.size.width -= 2.0f * (self.contentPadding + self.borderWidth);
+  frame.size.height -= 2.0f * (self.contentPadding + self.borderWidth);
   return frame;
 }
 

@@ -7,7 +7,7 @@
 ## Installation
 **CocoaPods** (recommended)  
 Add the following line to your `Podfile`:  
-`pod 'GUIRoundProgressButton', '~> 0.0.1'`  
+`pod 'GUIRoundProgressButton', '~> 0.0.2`  
 And then add `#import <GUIRoundProgressButton.h>` to your view controller.
 
 **Manual**  
@@ -27,6 +27,11 @@ To use it, you should create a view controller that extends `GUIRoundProgressBut
 
 ### Customizing
 These are the methods you can use to change the look and feel of your button. The *"touch"* methods relate to the color while the button is being pressed by the user.
+
+#### Content Padding
+```obj-c
+- (CGFloat)setContentPadding;
+```
 
 #### Border
 ```obj-c
