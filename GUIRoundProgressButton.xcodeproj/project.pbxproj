@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79D23DCF1AEDC3A200A6F6A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D23DCE1AEDC3A200A6F6A9 /* main.m */; };
+		79D23DD21AEDC3A200A6F6A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D23DD11AEDC3A200A6F6A9 /* AppDelegate.m */; };
+		79D23DD51AEDC3A200A6F6A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D23DD41AEDC3A200A6F6A9 /* ViewController.m */; };
+		79D23DD81AEDC3A200A6F6A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D23DD61AEDC3A200A6F6A9 /* Main.storyboard */; };
+		79D23DDA1AEDC3A200A6F6A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79D23DD91AEDC3A200A6F6A9 /* Images.xcassets */; };
+		79D23DDD1AEDC3A200A6F6A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79D23DDB1AEDC3A200A6F6A9 /* LaunchScreen.xib */; };
+		79D23DE91AEDC3A200A6F6A9 /* GUIRoundProgressButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D23DE81AEDC3A200A6F6A9 /* GUIRoundProgressButtonTests.m */; };
+		79D23DF51AEDC3D700A6F6A9 /* GUIRoundProgressButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D23DF41AEDC3D700A6F6A9 /* GUIRoundProgressButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79D23DE31AEDC3A200A6F6A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79D23DC11AEDC3A200A6F6A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79D23DC81AEDC3A200A6F6A9;
+			remoteInfo = GUIRoundProgressButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79D23DC91AEDC3A200A6F6A9 /* GUIRoundProgressButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GUIRoundProgressButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D23DCD1AEDC3A200A6F6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79D23DCE1AEDC3A200A6F6A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79D23DD01AEDC3A200A6F6A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79D23DD11AEDC3A200A6F6A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79D23DD31AEDC3A200A6F6A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79D23DD41AEDC3A200A6F6A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79D23DD71AEDC3A200A6F6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79D23DD91AEDC3A200A6F6A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		79D23DDC1AEDC3A200A6F6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		79D23DE21AEDC3A200A6F6A9 /* GUIRoundProgressButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GUIRoundProgressButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D23DE71AEDC3A200A6F6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79D23DE81AEDC3A200A6F6A9 /* GUIRoundProgressButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUIRoundProgressButtonTests.m; sourceTree = "<group>"; };
+		79D23DF31AEDC3D700A6F6A9 /* GUIRoundProgressButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUIRoundProgressButton.h; sourceTree = "<group>"; };
+		79D23DF41AEDC3D700A6F6A9 /* GUIRoundProgressButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUIRoundProgressButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79D23DC61AEDC3A200A6F6A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D23DDF1AEDC3A200A6F6A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79D23DC01AEDC3A200A6F6A9 = {
+			isa = PBXGroup;
+			children = (
+				79D23DCB1AEDC3A200A6F6A9 /* GUIRoundProgressButton */,
+				79D23DE51AEDC3A200A6F6A9 /* GUIRoundProgressButtonTests */,
+				79D23DCA1AEDC3A200A6F6A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79D23DCA1AEDC3A200A6F6A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79D23DC91AEDC3A200A6F6A9 /* GUIRoundProgressButton.app */,
+				79D23DE21AEDC3A200A6F6A9 /* GUIRoundProgressButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79D23DCB1AEDC3A200A6F6A9 /* GUIRoundProgressButton */ = {
+			isa = PBXGroup;
+			children = (
+				79D23DF21AEDC3BD00A6F6A9 /* Classes */,
+				79D23DD01AEDC3A200A6F6A9 /* AppDelegate.h */,
+				79D23DD11AEDC3A200A6F6A9 /* AppDelegate.m */,
+				79D23DD31AEDC3A200A6F6A9 /* ViewController.h */,
+				79D23DD41AEDC3A200A6F6A9 /* ViewController.m */,
+				79D23DD61AEDC3A200A6F6A9 /* Main.storyboard */,
+				79D23DD91AEDC3A200A6F6A9 /* Images.xcassets */,
+				79D23DDB1AEDC3A200A6F6A9 /* LaunchScreen.xib */,
+				79D23DCC1AEDC3A200A6F6A9 /* Supporting Files */,
+			);
+			path = GUIRoundProgressButton;
+			sourceTree = "<group>";
+		};
+		79D23DCC1AEDC3A200A6F6A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79D23DCD1AEDC3A200A6F6A9 /* Info.plist */,
+				79D23DCE1AEDC3A200A6F6A9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79D23DE51AEDC3A200A6F6A9 /* GUIRoundProgressButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				79D23DE81AEDC3A200A6F6A9 /* GUIRoundProgressButtonTests.m */,
+				79D23DE61AEDC3A200A6F6A9 /* Supporting Files */,
+			);
+			path = GUIRoundProgressButtonTests;
+			sourceTree = "<group>";
+		};
+		79D23DE61AEDC3A200A6F6A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79D23DE71AEDC3A200A6F6A9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79D23DF21AEDC3BD00A6F6A9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				79D23DF31AEDC3D700A6F6A9 /* GUIRoundProgressButton.h */,
+				79D23DF41AEDC3D700A6F6A9 /* GUIRoundProgressButton.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79D23DC81AEDC3A200A6F6A9 /* GUIRoundProgressButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79D23DEC1AEDC3A200A6F6A9 /* Build configuration list for PBXNativeTarget "GUIRoundProgressButton" */;
+			buildPhases = (
+				79D23DC51AEDC3A200A6F6A9 /* Sources */,
+				79D23DC61AEDC3A200A6F6A9 /* Frameworks */,
+				79D23DC71AEDC3A200A6F6A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GUIRoundProgressButton;
+			productName = GUIRoundProgressButton;
+			productReference = 79D23DC91AEDC3A200A6F6A9 /* GUIRoundProgressButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79D23DE11AEDC3A200A6F6A9 /* GUIRoundProgressButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79D23DEF1AEDC3A200A6F6A9 /* Build configuration list for PBXNativeTarget "GUIRoundProgressButtonTests" */;
+			buildPhases = (
+				79D23DDE1AEDC3A200A6F6A9 /* Sources */,
+				79D23DDF1AEDC3A200A6F6A9 /* Frameworks */,
+				79D23DE01AEDC3A200A6F6A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79D23DE41AEDC3A200A6F6A9 /* PBXTargetDependency */,
+			);
+			name = GUIRoundProgressButtonTests;
+			productName = GUIRoundProgressButtonTests;
+			productReference = 79D23DE21AEDC3A200A6F6A9 /* GUIRoundProgressButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79D23DC11AEDC3A200A6F6A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Guilherme Araújo";
+				TargetAttributes = {
+					79D23DC81AEDC3A200A6F6A9 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					79D23DE11AEDC3A200A6F6A9 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 79D23DC81AEDC3A200A6F6A9;
+					};
+				};
+			};
+			buildConfigurationList = 79D23DC41AEDC3A200A6F6A9 /* Build configuration list for PBXProject "GUIRoundProgressButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79D23DC01AEDC3A200A6F6A9;
+			productRefGroup = 79D23DCA1AEDC3A200A6F6A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79D23DC81AEDC3A200A6F6A9 /* GUIRoundProgressButton */,
+				79D23DE11AEDC3A200A6F6A9 /* GUIRoundProgressButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79D23DC71AEDC3A200A6F6A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D23DD81AEDC3A200A6F6A9 /* Main.storyboard in Resources */,
+				79D23DDD1AEDC3A200A6F6A9 /* LaunchScreen.xib in Resources */,
+				79D23DDA1AEDC3A200A6F6A9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D23DE01AEDC3A200A6F6A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79D23DC51AEDC3A200A6F6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D23DD51AEDC3A200A6F6A9 /* ViewController.m in Sources */,
+				79D23DF51AEDC3D700A6F6A9 /* GUIRoundProgressButton.m in Sources */,
+				79D23DD21AEDC3A200A6F6A9 /* AppDelegate.m in Sources */,
+				79D23DCF1AEDC3A200A6F6A9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D23DDE1AEDC3A200A6F6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D23DE91AEDC3A200A6F6A9 /* GUIRoundProgressButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79D23DE41AEDC3A200A6F6A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79D23DC81AEDC3A200A6F6A9 /* GUIRoundProgressButton */;
+			targetProxy = 79D23DE31AEDC3A200A6F6A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79D23DD61AEDC3A200A6F6A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79D23DD71AEDC3A200A6F6A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79D23DDB1AEDC3A200A6F6A9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79D23DDC1AEDC3A200A6F6A9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79D23DEA1AEDC3A200A6F6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79D23DEB1AEDC3A200A6F6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79D23DED1AEDC3A200A6F6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GUIRoundProgressButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		79D23DEE1AEDC3A200A6F6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GUIRoundProgressButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		79D23DF01AEDC3A200A6F6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GUIRoundProgressButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GUIRoundProgressButton.app/GUIRoundProgressButton";
+			};
+			name = Debug;
+		};
+		79D23DF11AEDC3A200A6F6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GUIRoundProgressButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GUIRoundProgressButton.app/GUIRoundProgressButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79D23DC41AEDC3A200A6F6A9 /* Build configuration list for PBXProject "GUIRoundProgressButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D23DEA1AEDC3A200A6F6A9 /* Debug */,
+				79D23DEB1AEDC3A200A6F6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79D23DEC1AEDC3A200A6F6A9 /* Build configuration list for PBXNativeTarget "GUIRoundProgressButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D23DED1AEDC3A200A6F6A9 /* Debug */,
+				79D23DEE1AEDC3A200A6F6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79D23DEF1AEDC3A200A6F6A9 /* Build configuration list for PBXNativeTarget "GUIRoundProgressButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D23DF01AEDC3A200A6F6A9 /* Debug */,
+				79D23DF11AEDC3A200A6F6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79D23DC11AEDC3A200A6F6A9 /* Project object */;
+}
